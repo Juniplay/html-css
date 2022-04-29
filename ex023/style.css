@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+a:active{
+    color: blueviolet;
+}
+.especial{
+    background-color: chocolate;
+}
+.especial::before{
+    content: '-->';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkorange;
+}
+.especial::after{
+    content: '<--';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkorange;
+}

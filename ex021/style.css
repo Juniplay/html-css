@@ -1,0 +1,40 @@
+@charset "UTF-8";
+body{
+    background-color: #034159;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #025951;
+}
+h1#principal{
+    text-align: center;
+    background-color: #025951;
+    color: white;
+}
+h2{
+    color: #02735E;
+}
+.basico{
+    color: black;
+}
+.intermediario{
+    color: white; 
+}
+.avancado{
+    color: blueviolet;
+}
+p{
+    color: #038C3E;
+}
+.destaque{
+    background-color: #b9b94668;
+}
+/*
+id apenas uma vez pode ser usada, nunca repetir
+
+E para usar o class para mais de uma tag, pode colocar 
+
+mais de uma classe, colocando o nome da classe com 
+
+espaçamento
+*/

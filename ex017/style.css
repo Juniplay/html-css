@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+
+body{
+    font-family:  'Work-Sans','Courier New', Courier, monospace;
+    /*
+medidas absolutas:cm,mm,in,px,pt,pc
+    
+medidas relativas:em,ex,rem,vw,vh, %
+    */
+    font-size: 16px;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+}
+h1{
+    /*
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;
+    /*
+
+    shorthand font:
+    font-style -> font-weight -> font-size -> font family    
+    */
+    font: italic bolder 3em 'Works Sans', sans-serif;
+}
+h2{
+    font: bold 2em 'Work Sans';
+}

@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+h1:hover{
+    color: white;
+}
+p{
+    color: white;
+}
+div > p{
+    display: none;
+}
+div:hover > p{
+    display: block;
+    color:red;
+    background-color: white;
+}
+div:hover{
+    color: white;
+}
